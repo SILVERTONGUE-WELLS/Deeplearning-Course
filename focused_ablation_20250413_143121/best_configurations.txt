@@ -1,0 +1,27 @@
+===== BEST CONFIGURATIONS =====
+
+Best configuration by accuracy:
+Accuracy: 0.3767
+pca_components: 128
+hidden_layers: 512,256,128,64
+activation: gelu
+optimizer: adam
+lr: 0.001
+dropout: 0.5
+use_batchnorm: True
+epochs: 50
+batch_size: 128
+w_init: xavier
+
+Best configuration by F1 score:
+F1 Score: 0.3947
+pca_components: 128
+hidden_layers: 128,64,32
+activation: gelu
+optimizer: adam
+lr: 0.005
+dropout: 0.5
+use_batchnorm: True
+epochs: 50
+batch_size: 128
+w_init: xavier
